@@ -97,8 +97,14 @@
 					CtrlWZoom = false,
 					Inputs = {
 						Filter = Input { Value = FuID { "Fast Gaussian" }, },
-						MaskWidth = Input { Value = 1920, },
-						MaskHeight = Input { Value = 1080, },
+						MaskWidth = Input {
+							Value = 1920,
+							Expression = "comp:GetPrefs(\"Comp.FrameFormat.Width\")",
+						},
+						MaskHeight = Input {
+							Value = 1080,
+							Expression = "comp:GetPrefs(\"Comp.FrameFormat.Height\")",
+						},
 						PixelAspect = Input { Value = { 1, 1 }, },
 						UseFrameFormatSettings = Input { Value = 1, },
 						ClippingMode = Input { Value = FuID { "None" }, },

@@ -332,8 +332,14 @@
 							Value = 0.04,
 							Expression = "Ellipse1_2.SoftEdge",
 						},
-						MaskWidth = Input { Value = 1920, },
-						MaskHeight = Input { Value = 1080, },
+						MaskWidth = Input {
+							Value = 1920,
+							Expression = "comp:GetPrefs(\"Comp.FrameFormat.Width\")",
+						},
+						MaskHeight = Input {
+							Value = 1080,
+							Expression = "comp:GetPrefs(\"Comp.FrameFormat.Height\")",
+						},
 						PixelAspect = Input { Value = { 1, 1 }, },
 						UseFrameFormatSettings = Input { Value = 1, },
 						ClippingMode = Input { Value = FuID { "None" }, },
@@ -354,8 +360,14 @@
 							SourceOp = "Ellipse1",
 							Source = "Mask",
 						},
-						Width = Input { Value = 1920, },
-						Height = Input { Value = 1080, },
+						Width = Input {
+							Value = 1920,
+							Expression = "comp:GetPrefs(\"Comp.FrameFormat.Width\")",
+						},
+						Height = Input {
+							Value = 1080,
+							Expression = "comp:GetPrefs(\"Comp.FrameFormat.Height\")",
+						},
 						UseFrameFormatSettings = Input { Value = 1, },
 						["Gamut.SLogVersion"] = Input { Value = FuID { "SLog2" }, },
 					},
@@ -370,8 +382,14 @@
 							Value = 0.04,
 							Expression = "Ellipse1_2.SoftEdge",
 						},
-						MaskWidth = Input { Value = 1920, },
-						MaskHeight = Input { Value = 1080, },
+						MaskWidth = Input {
+							Value = 1920,
+							Expression = "comp:GetPrefs(\"Comp.FrameFormat.Width\")",
+						},
+						MaskHeight = Input {
+							Value = 1080,
+							Expression = "comp:GetPrefs(\"Comp.FrameFormat.Height\")",
+						},
 						PixelAspect = Input { Value = { 1, 1 }, },
 						UseFrameFormatSettings = Input { Value = 1, },
 						ClippingMode = Input { Value = FuID { "None" }, },
@@ -392,8 +410,14 @@
 					Inputs = {
 						Filter = Input { Value = FuID { "Fast Gaussian" }, },
 						SoftEdge = Input { Value = 0.04, },
-						MaskWidth = Input { Value = 1920, },
-						MaskHeight = Input { Value = 1080, },
+						MaskWidth = Input {
+							Value = 1920,
+							Expression = "comp:GetPrefs(\"Comp.FrameFormat.Width\")",
+						},
+						MaskHeight = Input {
+							Value = 1080,
+							Expression = "comp:GetPrefs(\"Comp.FrameFormat.Height\")",
+						},
 						PixelAspect = Input { Value = { 1, 1 }, },
 						UseFrameFormatSettings = Input { Value = 1, },
 						ClippingMode = Input { Value = FuID { "None" }, },
@@ -414,8 +438,14 @@
 							SourceOp = "Ellipse1_1",
 							Source = "Mask",
 						},
-						Width = Input { Value = 1920, },
-						Height = Input { Value = 1080, },
+						Width = Input {
+							Value = 1920,
+							Expression = "comp:GetPrefs(\"Comp.FrameFormat.Width\")",
+						},
+						Height = Input {
+							Value = 1080,
+							Expression = "comp:GetPrefs(\"Comp.FrameFormat.Height\")",
+						},
 						UseFrameFormatSettings = Input { Value = 1, },
 						["Gamut.SLogVersion"] = Input { Value = FuID { "SLog2" }, },
 						TopLeftRed = Input { Value = 0.961, },
@@ -444,8 +474,14 @@
 							SourceOp = "Ellipse1_2",
 							Source = "Mask",
 						},
-						Width = Input { Value = 1920, },
-						Height = Input { Value = 1080, },
+						Width = Input {
+							Value = 1920,
+							Expression = "comp:GetPrefs(\"Comp.FrameFormat.Width\")",
+						},
+						Height = Input {
+							Value = 1080,
+							Expression = "comp:GetPrefs(\"Comp.FrameFormat.Height\")",
+						},
 						UseFrameFormatSettings = Input { Value = 1, },
 						["Gamut.SLogVersion"] = Input { Value = FuID { "SLog2" }, },
 						TopLeftRed = Input { Value = 0.95703125, },
@@ -480,8 +516,14 @@
 				},
 				Background1_1 = Background {
 					Inputs = {
-						Width = Input { Value = 1920, },
-						Height = Input { Value = 1080, },
+						Width = Input {
+							Value = 1920,
+							Expression = "comp:GetPrefs(\"Comp.FrameFormat.Width\")",
+						},
+						Height = Input {
+							Value = 1080,
+							Expression = "comp:GetPrefs(\"Comp.FrameFormat.Height\")",
+						},
 						UseFrameFormatSettings = Input { Value = 1, },
 						["Gamut.SLogVersion"] = Input { Value = FuID { "SLog2" }, },
 						TopLeftRed = Input { Value = 1, },
