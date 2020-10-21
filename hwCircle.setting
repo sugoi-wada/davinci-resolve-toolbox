@@ -1,0 +1,121 @@
+{
+	Tools = ordered() {
+		hwCircle = MacroOperator {
+			Inputs = ordered() {
+				MainInput1 = InstanceInput {
+					SourceOp = "Dissolve1",
+					Source = "Background",
+				},
+				MainInput2 = InstanceInput {
+					SourceOp = "Dissolve1",
+					Source = "Foreground",
+				},
+				Input1 = InstanceInput {
+					SourceOp = "Ellipse1",
+					Source = "SoftEdge",
+				},
+				Input2 = InstanceInput {
+					SourceOp = "Ellipse1",
+					Source = "Center",
+				},
+			},
+			Outputs = {
+				MainOutput1 = InstanceOutput {
+					SourceOp = "Dissolve1",
+					Source = "Output",
+				}
+			},
+			ViewInfo = GroupInfo { Pos = { 0, 0 } },
+			Tools = ordered() {
+				Dissolve1 = Dissolve {
+					Transitions = {
+						[0] = "DFTLumaRamp"
+					},
+					Inputs = {
+						Operation = Input { Value = FuID { "DFTLumaRamp" }, },
+						Mix = Input { Value = 0.5, },
+						Map = Input {
+							SourceOp = "Merge1",
+							Source = "Output",
+						},
+						["DFTLumaRamp.Softness"] = Input { Value = 0.5, },
+					},
+					ViewInfo = OperatorInfo { Pos = { 302.5, 33 } },
+				},
+				Merge1 = Merge {
+					Inputs = {
+						Background = Input {
+							SourceOp = "Background1_1",
+							Source = "Output",
+						},
+						Foreground = Input {
+							SourceOp = "Background1",
+							Source = "Output",
+						},
+						PerformDepthMerge = Input { Value = 0, },
+					},
+					ViewInfo = OperatorInfo { Pos = { 275, 148.5 } },
+				},
+				Background1 = Background {
+					Inputs = {
+						EffectMask = Input {
+							SourceOp = "Ellipse1",
+							Source = "Mask",
+						},
+						Width = Input {
+							Value = 1920,
+							Expression = "comp:GetPrefs(\"Comp.FrameFormat.Width\")",
+						},
+						Height = Input {
+							Value = 1080,
+							Expression = "comp:GetPrefs(\"Comp.FrameFormat.Height\")",
+						},
+						UseFrameFormatSettings = Input { Value = 1, },
+						["Gamut.SLogVersion"] = Input { Value = FuID { "SLog2" }, },
+					},
+					ViewInfo = OperatorInfo { Pos = { 165, 115.5 } },
+				},
+				Background1_1 = Background {
+					Inputs = {
+						Width = Input {
+							Value = 1920,
+							Expression = "comp:GetPrefs(\"Comp.FrameFormat.Width\")",
+						},
+						Height = Input {
+							Value = 1080,
+							Expression = "comp:GetPrefs(\"Comp.FrameFormat.Height\")",
+						},
+						UseFrameFormatSettings = Input { Value = 1, },
+						["Gamut.SLogVersion"] = Input { Value = FuID { "SLog2" }, },
+						TopLeftRed = Input { Value = 1, },
+						TopLeftGreen = Input { Value = 1, },
+						TopLeftBlue = Input { Value = 1, },
+					},
+					ViewInfo = OperatorInfo { Pos = { 165, 148.5 } },
+				},
+				Ellipse1 = EllipseMask {
+					CtrlWZoom = false,
+					Inputs = {
+						Filter = Input { Value = FuID { "Fast Gaussian" }, },
+						MaskWidth = Input { Value = 1920, },
+						MaskHeight = Input { Value = 1080, },
+						PixelAspect = Input { Value = { 1, 1 }, },
+						UseFrameFormatSettings = Input { Value = 1, },
+						ClippingMode = Input { Value = FuID { "None" }, },
+						Center = Input { Value = { 0, 0 }, },
+						Width = Input {
+							Value = 2.44186046511628,
+							Expression = "min(time/comp.RenderEnd,1)*2.5",
+						},
+						Height = Input {
+							Value = 2.44186046511628,
+							Expression = "Width",
+						},
+					},
+					ViewInfo = OperatorInfo { Pos = { 165, 82.5 } },
+				}
+			},
+		}
+	},
+	ActiveTool = "hwCircle"
+}
