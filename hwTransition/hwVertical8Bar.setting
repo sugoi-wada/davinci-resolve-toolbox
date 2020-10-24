@@ -1,0 +1,1697 @@
+{
+	Tools = ordered() {
+		hwVertical8Bar = MacroOperator {
+			Inputs = ordered() {
+				Input1 = InstanceInput {
+					SourceOp = "Config",
+					Source = "SlipLevel1",
+					Page = "Controls",
+					Default = -0.036,
+				},
+				Input2 = InstanceInput {
+					SourceOp = "Config",
+					Source = "SlipLevel2",
+					Page = "Controls",
+					Default = -0.036,
+				},
+				Input3 = InstanceInput {
+					SourceOp = "Config",
+					Source = "SlipLevel3",
+					Page = "Controls",
+					Default = 0.036,
+				},
+				Input4 = InstanceInput {
+					SourceOp = "Config",
+					Source = "SlipLevel4",
+					Page = "Controls",
+					Default = -0.057,
+				},
+				Input5 = InstanceInput {
+					SourceOp = "Config",
+					Source = "SlipLevel5",
+					Page = "Controls",
+					Default = 0.043,
+				},
+				Input6 = InstanceInput {
+					SourceOp = "Config",
+					Source = "SlipLevel6",
+					Page = "Controls",
+					Default = -0.088,
+				},
+				Input7 = InstanceInput {
+					SourceOp = "Config",
+					Source = "SlipLevel7",
+					Page = "Controls",
+					Default = -0.061,
+				},
+				Input8 = InstanceInput {
+					SourceOp = "Config",
+					Source = "SlipLevel8",
+					Page = "Controls",
+					Default = -0.045,
+				},
+				Input9 = InstanceInput {
+					SourceOp = "Config",
+					Source = "BarHeight1",
+					Page = "Controls",
+					Default = 876,
+				},
+				Input10 = InstanceInput {
+					SourceOp = "Config",
+					Source = "BarHeight2",
+					Page = "Controls",
+					Default = 628,
+				},
+				Input11 = InstanceInput {
+					SourceOp = "Config",
+					Source = "BarHeight3",
+					Page = "Controls",
+					Default = 848,
+				},
+				Input12 = InstanceInput {
+					SourceOp = "Config",
+					Source = "BarHeight4",
+					Page = "Controls",
+					Default = 850,
+				},
+				Input13 = InstanceInput {
+					SourceOp = "Config",
+					Source = "BarHeight5",
+					Page = "Controls",
+					Default = 800,
+				},
+				Input14 = InstanceInput {
+					SourceOp = "Config",
+					Source = "BarHeight6",
+					Page = "Controls",
+					Default = 874,
+				},
+				Input15 = InstanceInput {
+					SourceOp = "Config",
+					Source = "BarHeight7",
+					Page = "Controls",
+					Default = 830,
+				},
+				Input16 = InstanceInput {
+					SourceOp = "Config",
+					Source = "BarHeight8",
+					Page = "Controls",
+					Default = 900,
+				},
+				Input17 = InstanceInput {
+					SourceOp = "Config",
+					Source = "SnapHeightRate",
+					Page = "Controls",
+					Default = 0.2,
+				},
+				Input18 = InstanceInput {
+					SourceOp = "Config",
+					Source = "SnapFrameRate",
+					Page = "Controls",
+					Default = 15,
+				},
+				Input19 = InstanceInput {
+					SourceOp = "BarFrame4",
+					Source = "Type",
+				},
+				Input20 = InstanceInput {
+					SourceOp = "BarFrame4",
+					Source = "TopLeftRed",
+					Name = "Color",
+					ControlGroup = 2,
+					Default = 1,
+				},
+				Input21 = InstanceInput {
+					SourceOp = "BarFrame4",
+					Source = "TopLeftGreen",
+					ControlGroup = 2,
+					Default = 0.9563764705882,
+				},
+				Input22 = InstanceInput {
+					SourceOp = "BarFrame4",
+					Source = "TopLeftBlue",
+					ControlGroup = 2,
+					Default = 0.892,
+				},
+				Input23 = InstanceInput {
+					SourceOp = "BarFrame4",
+					Source = "TopLeftAlpha",
+					ControlGroup = 2,
+					Default = 1,
+				},
+				Input24 = InstanceInput {
+					SourceOp = "BarFrame4",
+					Source = "TopRightRed",
+					Name = "Top Right",
+					ControlGroup = 3,
+					Default = 0,
+				},
+				Input25 = InstanceInput {
+					SourceOp = "BarFrame4",
+					Source = "TopRightGreen",
+					ControlGroup = 3,
+					Default = 0,
+				},
+				Input26 = InstanceInput {
+					SourceOp = "BarFrame4",
+					Source = "TopRightBlue",
+					ControlGroup = 3,
+					Default = 0,
+				},
+				Input27 = InstanceInput {
+					SourceOp = "BarFrame4",
+					Source = "TopRightAlpha",
+					ControlGroup = 3,
+					Default = 1,
+				},
+				Input28 = InstanceInput {
+					SourceOp = "BarFrame4",
+					Source = "BottomLeftRed",
+					Name = "Bottom Left",
+					ControlGroup = 4,
+					Default = 0,
+				},
+				Input29 = InstanceInput {
+					SourceOp = "BarFrame4",
+					Source = "BottomLeftGreen",
+					ControlGroup = 4,
+					Default = 0,
+				},
+				Input30 = InstanceInput {
+					SourceOp = "BarFrame4",
+					Source = "BottomLeftBlue",
+					ControlGroup = 4,
+					Default = 0,
+				},
+				Input31 = InstanceInput {
+					SourceOp = "BarFrame4",
+					Source = "BottomLeftAlpha",
+					ControlGroup = 4,
+					Default = 1,
+				},
+				Input32 = InstanceInput {
+					SourceOp = "BarFrame4",
+					Source = "BottomRightRed",
+					Name = "Bottom Right",
+					ControlGroup = 5,
+					Default = 0,
+				},
+				Input33 = InstanceInput {
+					SourceOp = "BarFrame4",
+					Source = "BottomRightGreen",
+					ControlGroup = 5,
+					Default = 0,
+				},
+				Input34 = InstanceInput {
+					SourceOp = "BarFrame4",
+					Source = "BottomRightBlue",
+					ControlGroup = 5,
+					Default = 0,
+				},
+				Input35 = InstanceInput {
+					SourceOp = "BarFrame4",
+					Source = "BottomRightAlpha",
+					ControlGroup = 5,
+					Default = 1,
+				},
+				Input36 = InstanceInput {
+					SourceOp = "BarFrame4",
+					Source = "GradientType",
+				},
+				Input37 = InstanceInput {
+					SourceOp = "BarFrame4",
+					Source = "Start",
+					DefaultX = 0,
+					DefaultY = 0.5,
+				},
+				Input38 = InstanceInput {
+					SourceOp = "BarFrame4",
+					Source = "End",
+					DefaultX = 1,
+					DefaultY = 0.5,
+				},
+				Input39 = InstanceInput {
+					SourceOp = "BarFrame4",
+					Source = "Gradient",
+				},
+				Input40 = InstanceInput {
+					SourceOp = "BarFrame4",
+					Source = "GradientInterpolationMethod",
+				},
+				Input41 = InstanceInput {
+					SourceOp = "BarFrame4",
+					Source = "Offset",
+					Default = 0,
+				},
+				Input42 = InstanceInput {
+					SourceOp = "BarFrame4",
+					Source = "Repeat",
+				},
+				Input43 = InstanceInput {
+					SourceOp = "BarFrame4",
+					Source = "SubPixel",
+				},
+				Input44 = InstanceInput {
+					SourceOp = "BarFrame3",
+					Source = "Type",
+				},
+				Input45 = InstanceInput {
+					SourceOp = "BarFrame3",
+					Source = "TopLeftRed",
+					Name = "Color",
+					ControlGroup = 33,
+					Default = 0.9019607843137,
+				},
+				Input46 = InstanceInput {
+					SourceOp = "BarFrame3",
+					Source = "TopLeftGreen",
+					ControlGroup = 33,
+					Default = 0.2901960784314,
+				},
+				Input47 = InstanceInput {
+					SourceOp = "BarFrame3",
+					Source = "TopLeftBlue",
+					ControlGroup = 33,
+					Default = 0.0980392156863,
+				},
+				Input48 = InstanceInput {
+					SourceOp = "BarFrame3",
+					Source = "TopLeftAlpha",
+					ControlGroup = 33,
+					Default = 1,
+				},
+				Input49 = InstanceInput {
+					SourceOp = "BarFrame3",
+					Source = "TopRightRed",
+					Name = "Top Right",
+					ControlGroup = 34,
+					Default = 0,
+				},
+				Input50 = InstanceInput {
+					SourceOp = "BarFrame3",
+					Source = "TopRightGreen",
+					ControlGroup = 34,
+					Default = 0,
+				},
+				Input51 = InstanceInput {
+					SourceOp = "BarFrame3",
+					Source = "TopRightBlue",
+					ControlGroup = 34,
+					Default = 0,
+				},
+				Input52 = InstanceInput {
+					SourceOp = "BarFrame3",
+					Source = "TopRightAlpha",
+					ControlGroup = 34,
+					Default = 1,
+				},
+				Input53 = InstanceInput {
+					SourceOp = "BarFrame3",
+					Source = "BottomLeftRed",
+					Name = "Bottom Left",
+					ControlGroup = 35,
+					Default = 0,
+				},
+				Input54 = InstanceInput {
+					SourceOp = "BarFrame3",
+					Source = "BottomLeftGreen",
+					ControlGroup = 35,
+					Default = 0,
+				},
+				Input55 = InstanceInput {
+					SourceOp = "BarFrame3",
+					Source = "BottomLeftBlue",
+					ControlGroup = 35,
+					Default = 0,
+				},
+				Input56 = InstanceInput {
+					SourceOp = "BarFrame3",
+					Source = "BottomLeftAlpha",
+					ControlGroup = 35,
+					Default = 1,
+				},
+				Input57 = InstanceInput {
+					SourceOp = "BarFrame3",
+					Source = "BottomRightRed",
+					Name = "Bottom Right",
+					ControlGroup = 36,
+					Default = 0,
+				},
+				Input58 = InstanceInput {
+					SourceOp = "BarFrame3",
+					Source = "BottomRightGreen",
+					ControlGroup = 36,
+					Default = 0,
+				},
+				Input59 = InstanceInput {
+					SourceOp = "BarFrame3",
+					Source = "BottomRightBlue",
+					ControlGroup = 36,
+					Default = 0,
+				},
+				Input60 = InstanceInput {
+					SourceOp = "BarFrame3",
+					Source = "BottomRightAlpha",
+					ControlGroup = 36,
+					Default = 1,
+				},
+				Input61 = InstanceInput {
+					SourceOp = "BarFrame3",
+					Source = "GradientType",
+				},
+				Input62 = InstanceInput {
+					SourceOp = "BarFrame3",
+					Source = "Start",
+					DefaultX = 0,
+					DefaultY = 0.5,
+				},
+				Input63 = InstanceInput {
+					SourceOp = "BarFrame3",
+					Source = "End",
+					DefaultX = 1,
+					DefaultY = 0.5,
+				},
+				Input64 = InstanceInput {
+					SourceOp = "BarFrame3",
+					Source = "Gradient",
+				},
+				Input65 = InstanceInput {
+					SourceOp = "BarFrame3",
+					Source = "GradientInterpolationMethod",
+				},
+				Input66 = InstanceInput {
+					SourceOp = "BarFrame3",
+					Source = "Offset",
+					Default = 0,
+				},
+				Input67 = InstanceInput {
+					SourceOp = "BarFrame3",
+					Source = "Repeat",
+				},
+				Input68 = InstanceInput {
+					SourceOp = "BarFrame3",
+					Source = "SubPixel",
+				},
+				MainInput1 = InstanceInput {
+					SourceOp = "Dissolve1",
+					Source = "Background",
+				},
+				MainInput2 = InstanceInput {
+					SourceOp = "Dissolve1",
+					Source = "Foreground",
+				},
+				Input69 = InstanceInput {
+					SourceOp = "BarFrame2",
+					Source = "Type",
+				},
+				Input70 = InstanceInput {
+					SourceOp = "BarFrame2",
+					Source = "TopLeftRed",
+					Name = "Color",
+					ControlGroup = 48,
+					Default = 1,
+				},
+				Input71 = InstanceInput {
+					SourceOp = "BarFrame2",
+					Source = "TopLeftGreen",
+					ControlGroup = 48,
+					Default = 0.5960784313725,
+				},
+				Input72 = InstanceInput {
+					SourceOp = "BarFrame2",
+					Source = "TopLeftBlue",
+					ControlGroup = 48,
+					Default = 0,
+				},
+				Input73 = InstanceInput {
+					SourceOp = "BarFrame2",
+					Source = "TopLeftAlpha",
+					ControlGroup = 48,
+					Default = 1,
+				},
+				Input74 = InstanceInput {
+					SourceOp = "BarFrame2",
+					Source = "TopRightRed",
+					Name = "Top Right",
+					ControlGroup = 49,
+					Default = 0,
+				},
+				Input75 = InstanceInput {
+					SourceOp = "BarFrame2",
+					Source = "TopRightGreen",
+					ControlGroup = 49,
+					Default = 0,
+				},
+				Input76 = InstanceInput {
+					SourceOp = "BarFrame2",
+					Source = "TopRightBlue",
+					ControlGroup = 49,
+					Default = 0,
+				},
+				Input77 = InstanceInput {
+					SourceOp = "BarFrame2",
+					Source = "TopRightAlpha",
+					ControlGroup = 49,
+					Default = 1,
+				},
+				Input78 = InstanceInput {
+					SourceOp = "BarFrame2",
+					Source = "BottomLeftRed",
+					Name = "Bottom Left",
+					ControlGroup = 50,
+					Default = 0,
+				},
+				Input79 = InstanceInput {
+					SourceOp = "BarFrame2",
+					Source = "BottomLeftGreen",
+					ControlGroup = 50,
+					Default = 0,
+				},
+				Input80 = InstanceInput {
+					SourceOp = "BarFrame2",
+					Source = "BottomLeftBlue",
+					ControlGroup = 50,
+					Default = 0,
+				},
+				Input81 = InstanceInput {
+					SourceOp = "BarFrame2",
+					Source = "BottomLeftAlpha",
+					ControlGroup = 50,
+					Default = 1,
+				},
+				Input82 = InstanceInput {
+					SourceOp = "BarFrame2",
+					Source = "BottomRightRed",
+					Name = "Bottom Right",
+					ControlGroup = 51,
+					Default = 0,
+				},
+				Input83 = InstanceInput {
+					SourceOp = "BarFrame2",
+					Source = "BottomRightGreen",
+					ControlGroup = 51,
+					Default = 0,
+				},
+				Input84 = InstanceInput {
+					SourceOp = "BarFrame2",
+					Source = "BottomRightBlue",
+					ControlGroup = 51,
+					Default = 0,
+				},
+				Input85 = InstanceInput {
+					SourceOp = "BarFrame2",
+					Source = "BottomRightAlpha",
+					ControlGroup = 51,
+					Default = 1,
+				},
+				Input86 = InstanceInput {
+					SourceOp = "BarFrame2",
+					Source = "GradientType",
+				},
+				Input87 = InstanceInput {
+					SourceOp = "BarFrame2",
+					Source = "Start",
+					DefaultX = 0,
+					DefaultY = 0.5,
+				},
+				Input88 = InstanceInput {
+					SourceOp = "BarFrame2",
+					Source = "End",
+					DefaultX = 1,
+					DefaultY = 0.5,
+				},
+				Input89 = InstanceInput {
+					SourceOp = "BarFrame2",
+					Source = "Gradient",
+				},
+				Input90 = InstanceInput {
+					SourceOp = "BarFrame2",
+					Source = "GradientInterpolationMethod",
+				},
+				Input91 = InstanceInput {
+					SourceOp = "BarFrame2",
+					Source = "Offset",
+					Default = 0,
+				},
+				Input92 = InstanceInput {
+					SourceOp = "BarFrame2",
+					Source = "Repeat",
+				},
+				Input93 = InstanceInput {
+					SourceOp = "BarFrame2",
+					Source = "SubPixel",
+				},
+				Input94 = InstanceInput {
+					SourceOp = "BarFrame1",
+					Source = "Type",
+				},
+				Input95 = InstanceInput {
+					SourceOp = "BarFrame1",
+					Source = "TopLeftRed",
+					Name = "Color",
+					ControlGroup = 61,
+					Default = 1,
+				},
+				Input96 = InstanceInput {
+					SourceOp = "BarFrame1",
+					Source = "TopLeftGreen",
+					ControlGroup = 61,
+					Default = 0.8,
+				},
+				Input97 = InstanceInput {
+					SourceOp = "BarFrame1",
+					Source = "TopLeftBlue",
+					ControlGroup = 61,
+					Default = 0.7372549019608,
+				},
+				Input98 = InstanceInput {
+					SourceOp = "BarFrame1",
+					Source = "TopLeftAlpha",
+					ControlGroup = 61,
+					Default = 1,
+				},
+				Input99 = InstanceInput {
+					SourceOp = "BarFrame1",
+					Source = "TopRightRed",
+					Name = "Top Right",
+					ControlGroup = 62,
+					Default = 0,
+				},
+				Input100 = InstanceInput {
+					SourceOp = "BarFrame1",
+					Source = "TopRightGreen",
+					ControlGroup = 62,
+					Default = 0,
+				},
+				Input101 = InstanceInput {
+					SourceOp = "BarFrame1",
+					Source = "TopRightBlue",
+					ControlGroup = 62,
+					Default = 0,
+				},
+				Input102 = InstanceInput {
+					SourceOp = "BarFrame1",
+					Source = "TopRightAlpha",
+					ControlGroup = 62,
+					Default = 1,
+				},
+				Input103 = InstanceInput {
+					SourceOp = "BarFrame1",
+					Source = "BottomLeftRed",
+					Name = "Bottom Left",
+					ControlGroup = 63,
+					Default = 0,
+				},
+				Input104 = InstanceInput {
+					SourceOp = "BarFrame1",
+					Source = "BottomLeftGreen",
+					ControlGroup = 63,
+					Default = 0,
+				},
+				Input105 = InstanceInput {
+					SourceOp = "BarFrame1",
+					Source = "BottomLeftBlue",
+					ControlGroup = 63,
+					Default = 0,
+				},
+				Input106 = InstanceInput {
+					SourceOp = "BarFrame1",
+					Source = "BottomLeftAlpha",
+					ControlGroup = 63,
+					Default = 1,
+				},
+				Input107 = InstanceInput {
+					SourceOp = "BarFrame1",
+					Source = "BottomRightRed",
+					Name = "Bottom Right",
+					ControlGroup = 64,
+					Default = 0,
+				},
+				Input108 = InstanceInput {
+					SourceOp = "BarFrame1",
+					Source = "BottomRightGreen",
+					ControlGroup = 64,
+					Default = 0,
+				},
+				Input109 = InstanceInput {
+					SourceOp = "BarFrame1",
+					Source = "BottomRightBlue",
+					ControlGroup = 64,
+					Default = 0,
+				},
+				Input110 = InstanceInput {
+					SourceOp = "BarFrame1",
+					Source = "BottomRightAlpha",
+					ControlGroup = 64,
+					Default = 1,
+				},
+				Input111 = InstanceInput {
+					SourceOp = "BarFrame1",
+					Source = "GradientType",
+				},
+				Input112 = InstanceInput {
+					SourceOp = "BarFrame1",
+					Source = "Start",
+					DefaultX = 0,
+					DefaultY = 0.5,
+				},
+				Input113 = InstanceInput {
+					SourceOp = "BarFrame1",
+					Source = "End",
+					DefaultX = 1,
+					DefaultY = 0.5,
+				},
+				Input114 = InstanceInput {
+					SourceOp = "BarFrame1",
+					Source = "Gradient",
+				},
+				Input115 = InstanceInput {
+					SourceOp = "BarFrame1",
+					Source = "GradientInterpolationMethod",
+				},
+				Input116 = InstanceInput {
+					SourceOp = "BarFrame1",
+					Source = "Offset",
+					Default = 0,
+				},
+				Input117 = InstanceInput {
+					SourceOp = "BarFrame1",
+					Source = "Repeat",
+				},
+				Input118 = InstanceInput {
+					SourceOp = "BarFrame1",
+					Source = "SubPixel",
+				},
+			},
+			Outputs = {
+				Output1 = InstanceOutput {
+					SourceOp = "XYPath6",
+					Source = "Heading",
+				},
+				Output2 = InstanceOutput {
+					SourceOp = "XYPath5",
+					Source = "Heading",
+				},
+				Output3 = InstanceOutput {
+					SourceOp = "XYPath7",
+					Source = "Heading",
+				},
+				Output4 = InstanceOutput {
+					SourceOp = "XYPath4",
+					Source = "Heading",
+				},
+				Output5 = InstanceOutput {
+					SourceOp = "XYPath1",
+					Source = "Heading",
+				},
+				Output6 = InstanceOutput {
+					SourceOp = "XYPath3",
+					Source = "Heading",
+				},
+				Output7 = InstanceOutput {
+					SourceOp = "XYPath2",
+					Source = "Heading",
+				},
+				Output8 = InstanceOutput {
+					SourceOp = "XYPath7_1",
+					Source = "Heading",
+				},
+				Output9 = InstanceOutput {
+					SourceOp = "MergeBar7CenterXYPath7_1Y",
+					Source = "Value",
+				},
+				MainOutput1 = InstanceOutput {
+					SourceOp = "MergeBar8",
+					Source = "Output",
+				},
+				Output10 = InstanceOutput {
+					SourceOp = "XYPath7_2",
+					Source = "Heading",
+				},
+				Output11 = InstanceOutput {
+					SourceOp = "MergeBar8CenterXYPath7_2Y",
+					Source = "Value",
+				}
+			},
+			ViewInfo = GroupInfo { Pos = { 0, 0 } },
+			Tools = ordered() {
+				MergeBar5 = Merge {
+					Inputs = {
+						Background = Input {
+							SourceOp = "MergeBar4",
+							Source = "Output",
+						},
+						Foreground = Input {
+							SourceOp = "BarFrame5",
+							Source = "Output",
+						},
+						Center = Input {
+							SourceOp = "XYPath6",
+							Source = "Value",
+						},
+						PerformDepthMerge = Input { Value = 0, },
+						ReferenceSize = Input { Value = 1, },
+					},
+					ViewInfo = OperatorInfo { Pos = { 880, -16.5 } },
+				},
+				XYPath6 = XYPath {
+					ShowKeyPoints = false,
+					DrawMode = "ModifyOnly",
+					CtrlWZoom = false,
+					Inputs = {
+						X = Input {
+							Value = 0.75,
+							Expression = "(BarFrame1.Width/2.0)/comp:GetPrefs(\"Comp.FrameFormat.Width\")+(BarFrame1.Width*4)/comp:GetPrefs(\"Comp.FrameFormat.Width\")",
+						},
+						Y = Input {
+							SourceOp = "MergeBar5CenterXYPath6Y",
+							Source = "Value",
+							Expression = "iif(time < Config.SnapFrameRate, \n  1-( (1-(1-time/Config.SnapFrameRate)^3) * Config.SnapHeightRate *(1+(BarFrame1.Height/LocalVal.FrameH)))\n  ,\n  1-( ((-(cos(pi * ((time-Config.SnapFrameRate)/(comp.RenderEnd-Config.SnapFrameRate))) - 1) / 2) * (1-Config.SnapHeightRate) + Config.SnapHeightRate ) *(1+(BarFrame1.Height/LocalVal.FrameH)))\n)",
+						},
+						Center = Input {
+							Value = { 0.5, 0.957 },
+							Expression = "Point(0.5, 1.0-Config.SlipLevel5)",
+						},
+					},
+				},
+				MergeBar5CenterXYPath6Y = BezierSpline {
+					SplineColor = { Red = 0, Green = 255, Blue = 0 },
+					NameSet = true,
+					KeyFrames = {
+						[0] = { 0.5, Flags = { Linear = true } }
+					}
+				},
+				MergeBar4 = Merge {
+					Inputs = {
+						Background = Input {
+							SourceOp = "MergeBar3",
+							Source = "Output",
+						},
+						Foreground = Input {
+							SourceOp = "BarFrame4",
+							Source = "Output",
+						},
+						Center = Input {
+							SourceOp = "XYPath5",
+							Source = "Value",
+						},
+						PerformDepthMerge = Input { Value = 0, },
+						ReferenceSize = Input { Value = 1, },
+					},
+					ViewInfo = OperatorInfo { Pos = { 770, -16.5 } },
+				},
+				XYPath5 = XYPath {
+					ShowKeyPoints = false,
+					DrawMode = "ModifyOnly",
+					CtrlWZoom = false,
+					Inputs = {
+						X = Input {
+							Value = 0.583333333333333,
+							Expression = "(BarFrame1.Width/2.0)/comp:GetPrefs(\"Comp.FrameFormat.Width\")+(BarFrame1.Width*3)/comp:GetPrefs(\"Comp.FrameFormat.Width\")",
+						},
+						Y = Input {
+							SourceOp = "MergeBar4CenterXYPath5Y",
+							Source = "Value",
+							Expression = "iif(time < Config.SnapFrameRate, \n  1-( (1-(1-time/Config.SnapFrameRate)^3) * Config.SnapHeightRate *(1+(BarFrame1.Height/LocalVal.FrameH)))\n  ,\n  1-( ((-(cos(pi * ((time-Config.SnapFrameRate)/(comp.RenderEnd-Config.SnapFrameRate))) - 1) / 2) * (1-Config.SnapHeightRate) + Config.SnapHeightRate ) *(1+(BarFrame1.Height/LocalVal.FrameH)))\n)",
+						},
+						Center = Input {
+							Value = { 0.5, 1.014 },
+							Expression = "Point(0.5, 1.0-Config.SlipLevel4)",
+						},
+					},
+				},
+				MergeBar4CenterXYPath5Y = BezierSpline {
+					SplineColor = { Red = 0, Green = 255, Blue = 0 },
+					NameSet = true,
+					KeyFrames = {
+						[0] = { 0.5, Flags = { Linear = true } }
+					}
+				},
+				BarFrame4 = Background {
+					NameSet = true,
+					Inputs = {
+						EffectMask = Input {
+							SourceOp = "BarRect4",
+							Source = "Mask",
+						},
+						Width = Input {
+							Value = 240,
+							Expression = "comp:GetPrefs(\"Comp.FrameFormat.Width\")/8",
+						},
+						Height = Input {
+							Value = 1080,
+							Expression = "LocalVal.FrameH",
+						},
+						["Gamut.SLogVersion"] = Input { Value = FuID { "SLog2" }, },
+						TopLeftRed = Input { Value = 1, },
+						TopLeftGreen = Input { Value = 0.9563764705882, },
+						TopLeftBlue = Input { Value = 0.892, },
+					},
+					ViewInfo = OperatorInfo { Pos = { 770, -82.5 } },
+				},
+				BarRect4 = RectangleMask {
+					Inputs = {
+						Filter = Input { Value = FuID { "Fast Gaussian" }, },
+						MaskWidth = Input { Value = 1920, },
+						MaskHeight = Input { Value = 1080, },
+						PixelAspect = Input { Value = { 1, 1 }, },
+						UseFrameFormatSettings = Input { Value = 1, },
+						ClippingMode = Input { Value = FuID { "None" }, },
+						Width = Input { Value = 1, },
+						Height = Input {
+							Value = 0.787037037037037,
+							Expression = "Config.BarHeight4/BarFrame1.Height",
+						},
+					},
+					ViewInfo = OperatorInfo { Pos = { 770, -115.5 } },
+				},
+				Config = Custom {
+					NameSet = true,
+					Inputs = {
+						EditLUTIn1 = Input { Value = 0, },
+						EditLUTIn2 = Input { Value = 0, },
+						EditLUTIn3 = Input { Value = 0, },
+						EditLUTIn4 = Input { Value = 0, },
+						LUTIn1 = Input {
+							SourceOp = "ConfigLUTIn1",
+							Source = "Value",
+						},
+						LUTIn2 = Input {
+							SourceOp = "ConfigLUTIn2",
+							Source = "Value",
+						},
+						LUTIn3 = Input {
+							SourceOp = "ConfigLUTIn3",
+							Source = "Value",
+						},
+						LUTIn4 = Input {
+							SourceOp = "ConfigLUTIn4",
+							Source = "Value",
+						},
+						SnapFrameRate = Input { Value = 15, },
+					},
+					ViewInfo = OperatorInfo { Pos = { 275, -181.5 } },
+					UserControls = ordered() {
+						SlipLevel1 = { INP_Integer = false, LINKID_DataType = "Number", LINKS_Name = "Slip Level1", INPID_InputControl = "ScrewControl", ICS_ControlPage = "Controls", INP_Default = -0.036 },
+						SlipLevel2 = { INP_Integer = false, LINKID_DataType = "Number", LINKS_Name = "Slip Level2", INPID_InputControl = "ScrewControl", ICS_ControlPage = "Controls", INP_Default = -0.036 },
+						SlipLevel3 = { INP_Integer = false, LINKID_DataType = "Number", LINKS_Name = "Slip Level3", INPID_InputControl = "ScrewControl", ICS_ControlPage = "Controls", INP_Default = 0.036 },
+						SlipLevel4 = { INP_Integer = false, LINKID_DataType = "Number", LINKS_Name = "Slip Level4", INPID_InputControl = "ScrewControl", ICS_ControlPage = "Controls", INP_Default = -0.057 },
+						SlipLevel5 = { INP_Integer = false, LINKID_DataType = "Number", LINKS_Name = "Slip Level5", INPID_InputControl = "ScrewControl", ICS_ControlPage = "Controls", INP_Default = 0.043 },
+						SlipLevel6 = { INP_Integer = false, LINKID_DataType = "Number", LINKS_Name = "Slip Level6", INPID_InputControl = "ScrewControl", ICS_ControlPage = "Controls", INP_Default = -0.088 },
+						SlipLevel7 = { INP_Integer = false, LINKID_DataType = "Number", LINKS_Name = "Slip Level7", INPID_InputControl = "ScrewControl", ICS_ControlPage = "Controls", INP_Default = -0.061 },
+						SlipLevel8 = { INP_Integer = false, LINKID_DataType = "Number", LINKS_Name = "Slip Level8", INPID_InputControl = "ScrewControl", ICS_ControlPage = "Controls", INP_Default = -0.045 },
+						BarHeight1 = { LINKS_Name = "Bar Height1", INP_Integer = true, INPID_InputControl = "ScrewControl", LINKID_DataType = "Number", INP_MinScale = 500, ICS_ControlPage = "Controls", INP_MaxScale = 2000, INP_Default = 876 },
+						BarHeight2 = { LINKS_Name = "Bar Height2", INP_Integer = true, INPID_InputControl = "ScrewControl", LINKID_DataType = "Number", INP_MinScale = 500, ICS_ControlPage = "Controls", INP_MaxScale = 2000, INP_Default = 628 },
+						BarHeight3 = { LINKS_Name = "Bar Height3", INP_Integer = true, INPID_InputControl = "ScrewControl", LINKID_DataType = "Number", INP_MinScale = 500, ICS_ControlPage = "Controls", INP_MaxScale = 2000, INP_Default = 848 },
+						BarHeight4 = { LINKS_Name = "Bar Height4", INP_Integer = true, INPID_InputControl = "ScrewControl", LINKID_DataType = "Number", INP_MinScale = 500, ICS_ControlPage = "Controls", INP_MaxScale = 2000, INP_Default = 850 },
+						BarHeight5 = { LINKS_Name = "Bar Height5", INP_Integer = true, INPID_InputControl = "ScrewControl", LINKID_DataType = "Number", INP_MinScale = 500, ICS_ControlPage = "Controls", INP_MaxScale = 2000, INP_Default = 800 },
+						BarHeight6 = { LINKS_Name = "Bar Height6", INP_Integer = true, INPID_InputControl = "ScrewControl", LINKID_DataType = "Number", INP_MinScale = 500, ICS_ControlPage = "Controls", INP_MaxScale = 2000, INP_Default = 874 },
+						BarHeight7 = { LINKS_Name = "Bar Height7", INP_Integer = true, INPID_InputControl = "ScrewControl", LINKID_DataType = "Number", INP_MinScale = 500, ICS_ControlPage = "Controls", INP_MaxScale = 2000, INP_Default = 830 },
+						BarHeight8 = { LINKS_Name = "Bar Height8", INP_Integer = true, INPID_InputControl = "ScrewControl", LINKID_DataType = "Number", INP_MinScale = 500, ICS_ControlPage = "Controls", INP_MaxScale = 2000, INP_Default = 900 },
+						SnapHeightRate = { LINKS_Name = "Snap Height Rate", INP_Integer = false, LINKID_DataType = "Number", ICS_ControlPage = "Controls", INP_MinScale = 0, INPID_InputControl = "ScrewControl", INP_MaxScale = 1, INP_Default = 0.2 },
+						SnapFrameRate = { INP_Integer = false, LINKID_DataType = "Number", ICS_ControlPage = "Controls", INPID_InputControl = "ScrewControl", LINKS_Name = "SnapFrameRate" }
+					}
+				},
+				ConfigLUTIn1 = LUTBezier {
+					KeyColorSplines = {
+						[0] = {
+							[0] = { 0, RH = { 0.333333333333333, 0.333333333333333 }, Flags = { Linear = true } },
+							[1] = { 1, LH = { 0.666666666666667, 0.666666666666667 }, Flags = { Linear = true } }
+						}
+					},
+					SplineColor = { Red = 204, Green = 0, Blue = 0 },
+				},
+				ConfigLUTIn2 = LUTBezier {
+					KeyColorSplines = {
+						[0] = {
+							[0] = { 0, RH = { 0.333333333333333, 0.333333333333333 }, Flags = { Linear = true } },
+							[1] = { 1, LH = { 0.666666666666667, 0.666666666666667 }, Flags = { Linear = true } }
+						}
+					},
+					SplineColor = { Red = 0, Green = 204, Blue = 0 },
+				},
+				ConfigLUTIn3 = LUTBezier {
+					KeyColorSplines = {
+						[0] = {
+							[0] = { 0, RH = { 0.333333333333333, 0.333333333333333 }, Flags = { Linear = true } },
+							[1] = { 1, LH = { 0.666666666666667, 0.666666666666667 }, Flags = { Linear = true } }
+						}
+					},
+					SplineColor = { Red = 0, Green = 0, Blue = 204 },
+				},
+				ConfigLUTIn4 = LUTBezier {
+					KeyColorSplines = {
+						[0] = {
+							[0] = { 0, RH = { 0.333333333333333, 0.333333333333333 }, Flags = { Linear = true } },
+							[1] = { 1, LH = { 0.666666666666667, 0.666666666666667 }, Flags = { Linear = true } }
+						}
+					},
+					SplineColor = { Red = 204, Green = 204, Blue = 204 },
+				},
+				BarRect6 = RectangleMask {
+					Inputs = {
+						Filter = Input { Value = FuID { "Fast Gaussian" }, },
+						MaskWidth = Input { Value = 1920, },
+						MaskHeight = Input { Value = 1080, },
+						PixelAspect = Input { Value = { 1, 1 }, },
+						UseFrameFormatSettings = Input { Value = 1, },
+						ClippingMode = Input { Value = FuID { "None" }, },
+						Width = Input { Value = 1, },
+						Height = Input {
+							Value = 0.809259259259259,
+							Expression = "Config.BarHeight6/BarFrame1.Height",
+						},
+					},
+					ViewInfo = OperatorInfo { Pos = { 990, -115.5 } },
+				},
+				MergeBar6 = Merge {
+					Inputs = {
+						Background = Input {
+							SourceOp = "MergeBar5",
+							Source = "Output",
+						},
+						Foreground = Input {
+							SourceOp = "BarFrame6",
+							Source = "Output",
+						},
+						Center = Input {
+							SourceOp = "XYPath7",
+							Source = "Value",
+						},
+						PerformDepthMerge = Input { Value = 0, },
+						ReferenceSize = Input { Value = 1, },
+						StartRenderScripts = Input { Value = 1, },
+					},
+					ViewInfo = OperatorInfo { Pos = { 990, -16.5 } },
+				},
+				XYPath7 = XYPath {
+					ShowKeyPoints = false,
+					DrawMode = "ModifyOnly",
+					CtrlWZoom = false,
+					Inputs = {
+						X = Input {
+							Value = 0.6875,
+							Expression = "(BarFrame1.Width/2.0)/comp:GetPrefs(\"Comp.FrameFormat.Width\")+(BarFrame1.Width*5)/comp:GetPrefs(\"Comp.FrameFormat.Width\")",
+						},
+						Y = Input {
+							SourceOp = "MergeBar6CenterXYPath7Y",
+							Source = "Value",
+							Expression = "iif(time < Config.SnapFrameRate, \n  1-( (1-(1-time/Config.SnapFrameRate)^3) * Config.SnapHeightRate *(1+(BarFrame1.Height/LocalVal.FrameH)))\n  ,\n  1-( ((-(cos(pi * ((time-Config.SnapFrameRate)/(comp.RenderEnd-Config.SnapFrameRate))) - 1) / 2) * (1-Config.SnapHeightRate) + Config.SnapHeightRate ) *(1+(BarFrame1.Height/LocalVal.FrameH)))\n)",
+						},
+						Center = Input {
+							Value = { 0.5, 1.088 },
+							Expression = "Point(0.5, 1.0-Config.SlipLevel6)",
+						},
+					},
+				},
+				MergeBar6CenterXYPath7Y = BezierSpline {
+					SplineColor = { Red = 0, Green = 255, Blue = 0 },
+					NameSet = true,
+					KeyFrames = {
+						[0] = { 0.5, Flags = { Linear = true } }
+					}
+				},
+				BarFrame6 = Background {
+					NameSet = true,
+					Inputs = {
+						EffectMask = Input {
+							SourceOp = "BarRect6",
+							Source = "Mask",
+						},
+						Width = Input {
+							Value = 240,
+							Expression = "comp:GetPrefs(\"Comp.FrameFormat.Width\")/8",
+						},
+						Height = Input {
+							Value = 1080,
+							Expression = "LocalVal.FrameH",
+						},
+						["Gamut.SLogVersion"] = Input { Value = FuID { "SLog2" }, },
+						TopLeftRed = Input {
+							Value = 1,
+							Expression = "BarFrame2.TopLeftRed",
+						},
+						TopLeftGreen = Input {
+							Value = 0.596078431372549,
+							Expression = "BarFrame2.TopLeftGreen",
+						},
+						TopLeftBlue = Input { Expression = "BarFrame2.TopLeftBlue", },
+						TopLeftAlpha = Input { Expression = "BarFrame2.TopLeftAlpha", },
+					},
+					ViewInfo = OperatorInfo { Pos = { 990, -82.5 } },
+				},
+				BarRect5 = RectangleMask {
+					CtrlWZoom = false,
+					Inputs = {
+						Filter = Input { Value = FuID { "Fast Gaussian" }, },
+						MaskWidth = Input { Value = 1920, },
+						MaskHeight = Input { Value = 1080, },
+						PixelAspect = Input { Value = { 1, 1 }, },
+						UseFrameFormatSettings = Input { Value = 1, },
+						ClippingMode = Input { Value = FuID { "None" }, },
+						Width = Input { Value = 1, },
+						Height = Input {
+							Value = 0.740740740740741,
+							Expression = "Config.BarHeight5/BarFrame5.Height",
+						},
+					},
+					ViewInfo = OperatorInfo { Pos = { 880, -115.5 } },
+				},
+				BarFrame5 = Background {
+					NameSet = true,
+					Inputs = {
+						EffectMask = Input {
+							SourceOp = "BarRect5",
+							Source = "Mask",
+						},
+						Width = Input {
+							Value = 240,
+							Expression = "comp:GetPrefs(\"Comp.FrameFormat.Width\")/8",
+						},
+						Height = Input {
+							Value = 1080,
+							Expression = "LocalVal.FrameH",
+						},
+						["Gamut.SLogVersion"] = Input { Value = FuID { "SLog2" }, },
+						TopLeftRed = Input {
+							Value = 1,
+							Expression = "BarFrame1.TopLeftRed",
+						},
+						TopLeftGreen = Input {
+							Value = 0.8,
+							Expression = "BarFrame1.TopLeftGreen",
+						},
+						TopLeftBlue = Input {
+							Value = 0.737254901960784,
+							Expression = "BarFrame1.TopLeftBlue",
+						},
+						TopLeftAlpha = Input { Expression = "BarFrame1.TopLeftAlpha", },
+					},
+					ViewInfo = OperatorInfo { Pos = { 880, -82.5 } },
+				},
+				Merge1_1 = Merge {
+					Inputs = {
+						Background = Input {
+							SourceOp = "Background1_1",
+							Source = "Output",
+						},
+						Foreground = Input {
+							SourceOp = "Transform1",
+							Source = "Output",
+						},
+						PerformDepthMerge = Input { Value = 0, },
+					},
+					ViewInfo = OperatorInfo { Pos = { 316.25, 74.2502 } },
+				},
+				Background1_1 = Background {
+					Inputs = {
+						Width = Input {
+							Value = 1920,
+							Expression = "comp:GetPrefs(\"Comp.FrameFormat.Width\")",
+						},
+						Height = Input {
+							Value = 1080,
+							Expression = "comp:GetPrefs(\"Comp.FrameFormat.Height\")",
+						},
+						UseFrameFormatSettings = Input { Value = 1, },
+						["Gamut.SLogVersion"] = Input { Value = FuID { "SLog2" }, },
+					},
+					ViewInfo = OperatorInfo { Pos = { 206.25, 74.2502 } },
+				},
+				MergeBar3 = Merge {
+					Inputs = {
+						Background = Input {
+							SourceOp = "MergeBar2",
+							Source = "Output",
+						},
+						Foreground = Input {
+							SourceOp = "BarFrame3",
+							Source = "Output",
+						},
+						Center = Input {
+							SourceOp = "XYPath4",
+							Source = "Value",
+						},
+						PerformDepthMerge = Input { Value = 0, },
+						ReferenceSize = Input { Value = 1, },
+					},
+					ViewInfo = OperatorInfo { Pos = { 660, -16.5 } },
+				},
+				XYPath4 = XYPath {
+					ShowKeyPoints = false,
+					DrawMode = "ModifyOnly",
+					CtrlWZoom = false,
+					Inputs = {
+						X = Input {
+							Value = 0.416666666666667,
+							Expression = "(BarFrame1.Width/2.0)/comp:GetPrefs(\"Comp.FrameFormat.Width\")+(BarFrame1.Width*2)/comp:GetPrefs(\"Comp.FrameFormat.Width\")",
+						},
+						Y = Input {
+							SourceOp = "MergeBar3CenterXYPath4Y",
+							Source = "Value",
+							Expression = "iif(time < Config.SnapFrameRate, \n  1-( (1-(1-time/Config.SnapFrameRate)^3) * Config.SnapHeightRate *(1+(BarFrame1.Height/LocalVal.FrameH)))\n  ,\n  1-( ((-(cos(pi * ((time-Config.SnapFrameRate)/(comp.RenderEnd-Config.SnapFrameRate))) - 1) / 2) * (1-Config.SnapHeightRate) + Config.SnapHeightRate ) *(1+(BarFrame1.Height/LocalVal.FrameH)))\n)",
+						},
+						Center = Input {
+							Value = { 0.5, 1.029 },
+							Expression = "Point(0.5, 1.0-Config.SlipLevel3)",
+						},
+					},
+				},
+				MergeBar3CenterXYPath4Y = BezierSpline {
+					SplineColor = { Red = 0, Green = 255, Blue = 0 },
+					NameSet = true,
+					KeyFrames = {
+						[0] = { 0.5, Flags = { Linear = true } }
+					}
+				},
+				BarRect3 = RectangleMask {
+					Inputs = {
+						Filter = Input { Value = FuID { "Fast Gaussian" }, },
+						MaskWidth = Input { Value = 1920, },
+						MaskHeight = Input { Value = 1080, },
+						PixelAspect = Input { Value = { 1, 1 }, },
+						UseFrameFormatSettings = Input { Value = 1, },
+						ClippingMode = Input { Value = FuID { "None" }, },
+						Width = Input { Value = 1, },
+						Height = Input {
+							Value = 0.785185185185185,
+							Expression = "Config.BarHeight3/BarFrame1.Height",
+						},
+					},
+					ViewInfo = OperatorInfo { Pos = { 660, -115.5 } },
+				},
+				BarFrame3 = Background {
+					NameSet = true,
+					Inputs = {
+						EffectMask = Input {
+							SourceOp = "BarRect3",
+							Source = "Mask",
+						},
+						Width = Input {
+							Value = 240,
+							Expression = "comp:GetPrefs(\"Comp.FrameFormat.Width\")/8",
+						},
+						Height = Input {
+							Value = 1080,
+							Expression = "LocalVal.FrameH",
+						},
+						["Gamut.SLogVersion"] = Input { Value = FuID { "SLog2" }, },
+						TopLeftRed = Input { Value = 0.9019607843137, },
+						TopLeftGreen = Input { Value = 0.2901960784314, },
+						TopLeftBlue = Input { Value = 0.0980392156863, },
+					},
+					ViewInfo = OperatorInfo { Pos = { 660, -82.5 } },
+				},
+				Background1 = Background {
+					Inputs = {
+						Width = Input {
+							Value = 1920,
+							Expression = "comp:GetPrefs(\"Comp.FrameFormat.Width\")",
+						},
+						Height = Input {
+							Value = 1080,
+							Expression = "comp:GetPrefs(\"Comp.FrameFormat.Height\")",
+						},
+						UseFrameFormatSettings = Input { Value = 1, },
+						["Gamut.SLogVersion"] = Input { Value = FuID { "SLog2" }, },
+						TopLeftRed = Input { Value = 1, },
+						TopLeftGreen = Input { Value = 1, },
+						TopLeftBlue = Input { Value = 1, },
+					},
+					ViewInfo = OperatorInfo { Pos = { 110, 16.5 } },
+				},
+				Transform1 = Transform {
+					Inputs = {
+						Center = Input {
+							SourceOp = "XYPath1",
+							Source = "Value",
+						},
+						Input = Input {
+							SourceOp = "Background1",
+							Source = "Output",
+						},
+					},
+					ViewInfo = OperatorInfo { Pos = { 220, 16.5 } },
+				},
+				XYPath1 = XYPath {
+					ShowKeyPoints = false,
+					DrawMode = "ModifyOnly",
+					CtrlWZoom = false,
+					Inputs = {
+						X = Input { Value = 0.5, },
+						Y = Input {
+							Value = 0.425718684117241,
+							Expression = "max(0, min(1, (MergeBar1.Center.Y + MergeBar2.Center.Y + MergeBar3.Center.Y + MergeBar4.Center.Y + MergeBar5.Center.Y + MergeBar6.Center.Y) / 6))",
+						},
+						Center = Input { Value = { 0.5, 0 }, },
+					},
+				},
+				Dissolve1 = Dissolve {
+					Transitions = {
+						[0] = "DFTLumaRamp"
+					},
+					Inputs = {
+						Operation = Input { Value = FuID { "DFTLumaRamp" }, },
+						Mix = Input { Value = 0.5, },
+						Map = Input {
+							SourceOp = "Merge1_1",
+							Source = "Output",
+						},
+						["DFTLumaRamp.Softness"] = Input { Value = 0.5, },
+					},
+					ViewInfo = OperatorInfo { Pos = { 330, -16.5 } },
+				},
+				MergeBar2 = Merge {
+					NameSet = true,
+					Inputs = {
+						Background = Input {
+							SourceOp = "MergeBar1",
+							Source = "Output",
+						},
+						Foreground = Input {
+							SourceOp = "BarFrame2",
+							Source = "Output",
+						},
+						Center = Input {
+							SourceOp = "XYPath3",
+							Source = "Value",
+						},
+						PerformDepthMerge = Input { Value = 0, },
+						ReferenceSize = Input { Value = 1, },
+					},
+					ViewInfo = OperatorInfo { Pos = { 550, -16.5 } },
+				},
+				XYPath3 = XYPath {
+					ShowKeyPoints = false,
+					DrawMode = "ModifyOnly",
+					CtrlWZoom = false,
+					Inputs = {
+						X = Input {
+							Value = 0.25,
+							Expression = "(BarFrame1.Width/2.0)/comp:GetPrefs(\"Comp.FrameFormat.Width\")+(BarFrame1.Width*1)/comp:GetPrefs(\"Comp.FrameFormat.Width\")",
+						},
+						Y = Input {
+							SourceOp = "MergeBar2CenterXYPath3Y",
+							Source = "Value",
+							Expression = "iif(time < Config.SnapFrameRate, \n  1-( (1-(1-time/Config.SnapFrameRate)^3) * Config.SnapHeightRate *(1+(BarFrame1.Height/LocalVal.FrameH)))\n  ,\n  1-( ((-(cos(pi * ((time-Config.SnapFrameRate)/(comp.RenderEnd-Config.SnapFrameRate))) - 1) / 2) * (1-Config.SnapHeightRate) + Config.SnapHeightRate ) *(1+(BarFrame1.Height/LocalVal.FrameH)))\n)",
+						},
+						Center = Input {
+							Value = { 0.5, 1.058 },
+							Expression = "Point(0.5, 1.0-Config.SlipLevel2)",
+						},
+					},
+				},
+				MergeBar2CenterXYPath3Y = BezierSpline {
+					SplineColor = { Red = 0, Green = 255, Blue = 0 },
+					NameSet = true,
+					KeyFrames = {
+						[34] = { 0.5, Flags = { Linear = true } }
+					}
+				},
+				MergeBar1 = Merge {
+					Inputs = {
+						Background = Input {
+							SourceOp = "Dissolve1",
+							Source = "Output",
+						},
+						Foreground = Input {
+							SourceOp = "BarFrame1",
+							Source = "Output",
+						},
+						Center = Input {
+							SourceOp = "XYPath2",
+							Source = "Value",
+						},
+						PerformDepthMerge = Input { Value = 0, },
+						ReferenceSize = Input { Value = 1, },
+					},
+					ViewInfo = OperatorInfo { Pos = { 440, -16.5 } },
+				},
+				XYPath2 = XYPath {
+					ShowKeyPoints = false,
+					DrawMode = "ModifyOnly",
+					CtrlWZoom = false,
+					Inputs = {
+						X = Input {
+							Value = 0.0833333333333333,
+							Expression = "(BarFrame1.Width/2.0)/comp:GetPrefs(\"Comp.FrameFormat.Width\")",
+						},
+						Y = Input {
+							SourceOp = "MergeBar1CenterXYPath2Y",
+							Source = "Value",
+							Expression = "iif(time < Config.SnapFrameRate, \n  1-( (1-(1-time/Config.SnapFrameRate)^3) * Config.SnapHeightRate *(1+(BarFrame1.Height/LocalVal.FrameH)))\n  ,\n  1-( ((-(cos(pi * ((time-Config.SnapFrameRate)/(comp.RenderEnd-Config.SnapFrameRate))) - 1) / 2) * (1-Config.SnapHeightRate) + Config.SnapHeightRate ) *(1+(BarFrame1.Height/LocalVal.FrameH)))\n)",
+						},
+						Center = Input {
+							Value = { 0.5, 1 },
+							Expression = "Point(0.5, 1.0-Config.SlipLevel1)",
+						},
+					},
+				},
+				MergeBar1CenterXYPath2Y = BezierSpline {
+					SplineColor = { Red = 0, Green = 255, Blue = 0 },
+					NameSet = true,
+					KeyFrames = {
+						[0] = { 1, Flags = { Linear = true } }
+					}
+				},
+				BarFrame2 = Background {
+					NameSet = true,
+					Inputs = {
+						EffectMask = Input {
+							SourceOp = "BarRect2",
+							Source = "Mask",
+						},
+						Width = Input {
+							Value = 240,
+							Expression = "comp:GetPrefs(\"Comp.FrameFormat.Width\")/8",
+						},
+						Height = Input {
+							Value = 1080,
+							Expression = "LocalVal.FrameH",
+						},
+						["Gamut.SLogVersion"] = Input { Value = FuID { "SLog2" }, },
+						TopLeftRed = Input { Value = 1, },
+						TopLeftGreen = Input { Value = 0.5960784313725, },
+					},
+					ViewInfo = OperatorInfo { Pos = { 550, -82.5 } },
+				},
+				BarRect2 = RectangleMask {
+					Inputs = {
+						Filter = Input { Value = FuID { "Fast Gaussian" }, },
+						MaskWidth = Input { Value = 1920, },
+						MaskHeight = Input { Value = 1080, },
+						PixelAspect = Input { Value = { 1, 1 }, },
+						UseFrameFormatSettings = Input { Value = 1, },
+						ClippingMode = Input { Value = FuID { "None" }, },
+						Width = Input { Value = 1, },
+						Height = Input {
+							Value = 0.581481481481481,
+							Expression = "Config.BarHeight2/BarFrame1.Height",
+						},
+					},
+					ViewInfo = OperatorInfo { Pos = { 550, -115.5 } },
+				},
+				BarFrame1 = Background {
+					NameSet = true,
+					Inputs = {
+						EffectMask = Input {
+							SourceOp = "BarRect1",
+							Source = "Mask",
+						},
+						Width = Input {
+							Value = 240,
+							Expression = "comp:GetPrefs(\"Comp.FrameFormat.Width\")/8",
+						},
+						Height = Input {
+							Value = 1080,
+							Expression = "LocalVal.FrameH",
+						},
+						["Gamut.SLogVersion"] = Input { Value = FuID { "SLog2" }, },
+						TopLeftRed = Input { Value = 1, },
+						TopLeftGreen = Input { Value = 0.8, },
+						TopLeftBlue = Input { Value = 0.7372549019608, },
+					},
+					ViewInfo = OperatorInfo { Pos = { 440, -82.5 } },
+				},
+				BarRect1 = RectangleMask {
+					Inputs = {
+						Filter = Input { Value = FuID { "Fast Gaussian" }, },
+						MaskWidth = Input { Value = 1920, },
+						MaskHeight = Input { Value = 1080, },
+						PixelAspect = Input { Value = { 1, 1 }, },
+						UseFrameFormatSettings = Input { Value = 1, },
+						ClippingMode = Input { Value = FuID { "None" }, },
+						Width = Input { Value = 1, },
+						Height = Input {
+							Value = 0.811111111111111,
+							Expression = "Config.BarHeight1/BarFrame1.Height",
+						},
+					},
+					ViewInfo = OperatorInfo { Pos = { 440, -115.5 } },
+				},
+				LocalVal = Custom {
+					NameSet = true,
+					Inputs = {
+						SnapFrameRate = Input { Value = 15, },
+						LUTIn1 = Input {
+							SourceOp = "LocalValLUTIn1",
+							Source = "Value",
+						},
+						LUTIn2 = Input {
+							SourceOp = "LocalValLUTIn2",
+							Source = "Value",
+						},
+						LUTIn3 = Input {
+							SourceOp = "LocalValLUTIn3",
+							Source = "Value",
+						},
+						LUTIn4 = Input {
+							SourceOp = "LocalValLUTIn4",
+							Source = "Value",
+						},
+						FrameH = Input {
+							Value = 1080,
+							Expression = "comp:GetPrefs(\"Comp.FrameFormat.Height\")",
+						},
+						FrameW = Input {
+							Value = 1920,
+							Expression = "comp:GetPrefs(\"Comp.FrameFormat.Width\")",
+						},
+					},
+					ViewInfo = OperatorInfo { Pos = { 275, -115.5 } },
+					UserControls = ordered() {
+						FrameH = { INP_Integer = false, LINKID_DataType = "Number", ICS_ControlPage = "Controls", INPID_InputControl = "SliderControl", LINKS_Name = "Frame H" },
+						FrameW = { INP_Integer = false, LINKID_DataType = "Number", ICS_ControlPage = "Controls", INPID_InputControl = "SliderControl", LINKS_Name = "Frame W" }
+					}
+				},
+				LocalValLUTIn1 = LUTBezier {
+					KeyColorSplines = {
+						[0] = {
+							[0] = { 0, RH = { 0.333333333333333, 0.333333333333333 }, Flags = { Linear = true } },
+							[1] = { 1, LH = { 0.666666666666667, 0.666666666666667 }, Flags = { Linear = true } }
+						}
+					},
+					SplineColor = { Red = 0, Green = 0, Blue = 0 },
+				},
+				LocalValLUTIn2 = LUTBezier {
+					KeyColorSplines = {
+						[0] = {
+							[0] = { 0, RH = { 0.333333333333333, 0.333333333333333 }, Flags = { Linear = true } },
+							[1] = { 1, LH = { 0.666666666666667, 0.666666666666667 }, Flags = { Linear = true } }
+						}
+					},
+					SplineColor = { Red = 0, Green = 0, Blue = 0 },
+				},
+				LocalValLUTIn3 = LUTBezier {
+					KeyColorSplines = {
+						[0] = {
+							[0] = { 0, RH = { 0.333333333333333, 0.333333333333333 }, Flags = { Linear = true } },
+							[1] = { 1, LH = { 0.666666666666667, 0.666666666666667 }, Flags = { Linear = true } }
+						}
+					},
+					SplineColor = { Red = 0, Green = 0, Blue = 0 },
+				},
+				LocalValLUTIn4 = LUTBezier {
+					KeyColorSplines = {
+						[0] = {
+							[0] = { 0, RH = { 0.333333333333333, 0.333333333333333 }, Flags = { Linear = true } },
+							[1] = { 1, LH = { 0.666666666666667, 0.666666666666667 }, Flags = { Linear = true } }
+						}
+					},
+					SplineColor = { Red = 0, Green = 0, Blue = 0 },
+				},
+				MergeBar7 = Merge {
+					Inputs = {
+						Background = Input {
+							SourceOp = "MergeBar6",
+							Source = "Output",
+						},
+						Foreground = Input {
+							SourceOp = "BarFrame7",
+							Source = "Output",
+						},
+						Center = Input {
+							SourceOp = "XYPath7_1",
+							Source = "Value",
+						},
+						PerformDepthMerge = Input { Value = 0, },
+						ReferenceSize = Input { Value = 1, },
+						StartRenderScripts = Input { Value = 1, },
+					},
+					ViewInfo = OperatorInfo { Pos = { 1100, -16.5 } },
+				},
+				XYPath7_1 = XYPath {
+					ShowKeyPoints = false,
+					DrawMode = "ModifyOnly",
+					CtrlWZoom = false,
+					Inputs = {
+						X = Input {
+							Value = 0.916666666666667,
+							Expression = "(BarFrame1.Width/2.0)/comp:GetPrefs(\"Comp.FrameFormat.Width\")+(BarFrame1.Width*6)/comp:GetPrefs(\"Comp.FrameFormat.Width\")",
+						},
+						Y = Input {
+							SourceOp = "MergeBar7CenterXYPath7_1Y",
+							Source = "Value",
+							Expression = "iif(time < Config.SnapFrameRate, \n  1-( (1-(1-time/Config.SnapFrameRate)^3) * Config.SnapHeightRate *(1+(BarFrame1.Height/LocalVal.FrameH)))\n  ,\n  1-( ((-(cos(pi * ((time-Config.SnapFrameRate)/(comp.RenderEnd-Config.SnapFrameRate))) - 1) / 2) * (1-Config.SnapHeightRate) + Config.SnapHeightRate ) *(1+(BarFrame1.Height/LocalVal.FrameH)))\n)",
+						},
+						Center = Input {
+							Value = { 0.5, 1.088 },
+							Expression = "Point(0.5, 1.0-Config.SlipLevel7)",
+						},
+					},
+				},
+				MergeBar7CenterXYPath7_1Y = BezierSpline {
+					SplineColor = { Red = 0, Green = 255, Blue = 0 },
+					NameSet = true,
+					KeyFrames = {
+						[0] = { 0.5, Flags = { Linear = true } }
+					}
+				},
+				BarFrame7 = Background {
+					NameSet = true,
+					Inputs = {
+						EffectMask = Input {
+							SourceOp = "BarRect7",
+							Source = "Mask",
+						},
+						Width = Input {
+							Value = 240,
+							Expression = "comp:GetPrefs(\"Comp.FrameFormat.Width\")/8",
+						},
+						Height = Input {
+							Value = 1080,
+							Expression = "LocalVal.FrameH",
+						},
+						["Gamut.SLogVersion"] = Input { Value = FuID { "SLog2" }, },
+						TopLeftRed = Input {
+							Value = 0.901960784313726,
+							Expression = "BarFrame3.TopLeftRed",
+						},
+						TopLeftGreen = Input {
+							Value = 0.290196078431373,
+							Expression = "BarFrame3.TopLeftGreen",
+						},
+						TopLeftBlue = Input {
+							Value = 0.0980392156862745,
+							Expression = "BarFrame3.TopLeftBlue",
+						},
+						TopLeftAlpha = Input { Expression = "BarFrame3.TopLeftAlpha", },
+					},
+					ViewInfo = OperatorInfo { Pos = { 1100, -82.5 } },
+				},
+				BarRect7 = RectangleMask {
+					Inputs = {
+						Filter = Input { Value = FuID { "Fast Gaussian" }, },
+						MaskWidth = Input { Value = 1920, },
+						MaskHeight = Input { Value = 1080, },
+						PixelAspect = Input { Value = { 1, 1 }, },
+						UseFrameFormatSettings = Input { Value = 1, },
+						ClippingMode = Input { Value = FuID { "None" }, },
+						Width = Input { Value = 1, },
+						Height = Input {
+							Value = 0.768518518518518,
+							Expression = "Config.BarHeight7/BarFrame1.Height",
+						},
+					},
+					ViewInfo = OperatorInfo { Pos = { 1100, -115.5 } },
+				},
+				MergeBar8 = Merge {
+					Inputs = {
+						Background = Input {
+							SourceOp = "MergeBar7",
+							Source = "Output",
+						},
+						Foreground = Input {
+							SourceOp = "BarFrame8",
+							Source = "Output",
+						},
+						Center = Input {
+							SourceOp = "XYPath7_2",
+							Source = "Value",
+						},
+						PerformDepthMerge = Input { Value = 0, },
+						ReferenceSize = Input { Value = 1, },
+						StartRenderScripts = Input { Value = 1, },
+					},
+					ViewInfo = OperatorInfo { Pos = { 1210, -16.5 } },
+				},
+				XYPath7_2 = XYPath {
+					ShowKeyPoints = false,
+					DrawMode = "ModifyOnly",
+					CtrlWZoom = false,
+					Inputs = {
+						X = Input {
+							Value = 0.9375,
+							Expression = "(BarFrame1.Width/2.0)/comp:GetPrefs(\"Comp.FrameFormat.Width\")+(BarFrame1.Width*7)/comp:GetPrefs(\"Comp.FrameFormat.Width\")",
+						},
+						Y = Input {
+							SourceOp = "MergeBar8CenterXYPath7_2Y",
+							Source = "Value",
+							Expression = "iif(time < Config.SnapFrameRate, \n  1-( (1-(1-time/Config.SnapFrameRate)^3) * Config.SnapHeightRate *(1+(BarFrame1.Height/LocalVal.FrameH)))\n  ,\n  1-( ((-(cos(pi * ((time-Config.SnapFrameRate)/(comp.RenderEnd-Config.SnapFrameRate))) - 1) / 2) * (1-Config.SnapHeightRate) + Config.SnapHeightRate ) *(1+(BarFrame1.Height/LocalVal.FrameH)))\n)",
+						},
+						Center = Input {
+							Value = { 0.5, 1.045 },
+							Expression = "Point(0.5, 1.0-Config.SlipLevel8)",
+						},
+					},
+				},
+				MergeBar8CenterXYPath7_2Y = BezierSpline {
+					SplineColor = { Red = 0, Green = 255, Blue = 0 },
+					NameSet = true,
+					KeyFrames = {
+						[0] = { 0.5, Flags = { Linear = true } }
+					}
+				},
+				BarFrame8 = Background {
+					NameSet = true,
+					Inputs = {
+						EffectMask = Input {
+							SourceOp = "BarRect8",
+							Source = "Mask",
+						},
+						Width = Input {
+							Value = 240,
+							Expression = "comp:GetPrefs(\"Comp.FrameFormat.Width\")/8",
+						},
+						Height = Input {
+							Value = 1080,
+							Expression = "LocalVal.FrameH",
+						},
+						["Gamut.SLogVersion"] = Input { Value = FuID { "SLog2" }, },
+						TopLeftRed = Input {
+							Value = 1,
+							Expression = "BarFrame4.TopLeftRed",
+						},
+						TopLeftGreen = Input {
+							Value = 0.956376470588235,
+							Expression = "BarFrame4.TopLeftGreen",
+						},
+						TopLeftBlue = Input {
+							Value = 0.892,
+							Expression = "BarFrame4.TopLeftBlue",
+						},
+						TopLeftAlpha = Input { Expression = "BarFrame4.TopLeftAlpha", },
+					},
+					ViewInfo = OperatorInfo { Pos = { 1210, -82.5 } },
+				},
+				BarRect8 = RectangleMask {
+					Inputs = {
+						Filter = Input { Value = FuID { "Fast Gaussian" }, },
+						MaskWidth = Input { Value = 1920, },
+						MaskHeight = Input { Value = 1080, },
+						PixelAspect = Input { Value = { 1, 1 }, },
+						UseFrameFormatSettings = Input { Value = 1, },
+						ClippingMode = Input { Value = FuID { "None" }, },
+						Width = Input { Value = 1, },
+						Height = Input {
+							Value = 0.833333333333333,
+							Expression = "Config.BarHeight8/BarFrame1.Height",
+						},
+					},
+					ViewInfo = OperatorInfo { Pos = { 1210, -115.5 } },
+				}
+			},
+		}
+	},
+	ActiveTool = "hwVertical8Bar"
+}
